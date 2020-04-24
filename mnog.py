@@ -8,5 +8,7 @@ shevrole_owner = {'sam', 'edit', 'semen', 'petr'}
 
 work_near = {'konstantin', 'vladislav', 'sam', 'petr', 'edit'}
 
+live_near = {'john', 'vladislav', 'olga', 'mike', 'grant', 'covid', 'bilbo' }
+
 #  д/з объединить множество людей, которые живут и работают рядом
 # вывести множество людей, которые и владеют авто нужной марки, и живут и работают рядом
