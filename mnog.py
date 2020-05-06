@@ -12,4 +12,29 @@ live_near = {'john', 'vladislav', 'olga', 'mike', 'grant', 'covid', 'bilbo' }
 
 #  д/з объединить множество людей, которые живут и работают рядом
 # вывести множество людей, которые и владеют авто нужной марки, и живут и работают рядом
-print("1")
+
+#BORIS KAIZER
+#HOMEWORK LESSON 4
+
+criminals = work_near & live_near
+if len(criminals) > 0:
+    print("The list of people living and working near the crime scene:")
+    for p in criminals:
+        print(p)
+else:
+    print("There are no persons living and working near the crime scene")
+
+
+criminals = shevrole_owner & work_near & live_near
+
+if len(criminals) > 0:
+    print("It seems that offender is in list bellow:")
+    for p in criminals:
+        print(p)
+else:
+    print("Sorry, but the set of offenders is empty")
+
+
+
+
+
